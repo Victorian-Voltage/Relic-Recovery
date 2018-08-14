@@ -1,14 +1,5 @@
 package org.firstinspires.ftc.teamcode.vv7797.opmode.util;
 
-/**
- * Encapsulates a two-dimensional matrix of reals. Supports basic arithmetic,
- * transposition, and string formatting with custom column width. All arithmetic
- * operations have the appropriate input checking; attempting illegal matrix
- * arithmetic will result in a RuntimeException (unless arithmetic checking is
- * specifically disabled). Other than this, no attempt is made at preventing
- * overflowing or nonreal mathematics.
- */
-
 public class Matrix {
   public double[][] matrix;
   public int formatColumnWidth = 10;
