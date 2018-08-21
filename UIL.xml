@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <LynxUsbDevice name="Expansion Hub Portal 1" serialNumber="DQ1O3EBE" parentModuleAddress="10">
+        <LynxModule name="Alpha" port="2">
+            <RevRoboticsHDHexMotor name="drvFrontLeft" port="0" />
+            <RevRoboticsHDHexMotor name="drvFrontRight" port="1" />
+            <RevRoboticsHDHexMotor name="drvBackLeft" port="2" />
+            <RevRoboticsHDHexMotor name="drvBackRight" port="3" />
+            <Servo name="srvPhone" port="3" />
+            <Servo name="srvArmSwivel" port="4" />
+            <Servo name="srvArmShoulder" port="5" />
+            <LynxEmbeddedIMU name="imu" port="0" bus="0" />
+            <LynxColorSensor name="snsColorRampBottom" port="0" bus="1" />
+            <LynxColorSensor name="snsColorRampTop" port="0" bus="2" />
+            <LynxColorSensor name="snsColorJewel" port="0" bus="3" />
+        </LynxModule>
+        <LynxModule name="Beta" port="10">
+            <RevRoboticsHDHexMotor name="drvIntakeLeft" port="0" />
+            <RevRoboticsHDHexMotor name="drvIntakeRight" port="1" />
+            <RevRoboticsHDHexMotor name="drvLinearSlide" port="2" />
+            <RevRoboticsHDHexMotor name="drvVacuum" port="3" />
+            <Servo name="srvRamp" port="0" />
+            <Servo name="srvHorn" port="1" />
+            <Servo name="srvRelicArm" port="2" />
+            <Servo name="srvRelicClaw" port="3" />
+            <Servo name="srvLatch" port="4" />
+            <DigitalDevice name="snsTouchProbe" port="1" />
+            <LynxColorSensor name="snsRangeLatchDivider" port="0" bus="2" />
+            <LynxColorSensor name="snsRangeLatchWall" port="0" bus="3" />
+            <ModernRoboticsI2cRangeSensor name="snsRangeBack" port="0" bus="0" />
+            <ModernRoboticsI2cRangeSensor name="snsRangeFront" port="0" bus="1" />
+        </LynxModule>
+    </LynxUsbDevice>
+</Robot>
